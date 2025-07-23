@@ -183,7 +183,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1><i className="fas fa-x-ray"></i> Aplikasi Konstruksi Citra</h1>
+      <h1> Aplikasi Konstruksi Citra</h1>
       <form onSubmit={handleSubmit}>
         <input type="file" accept="image/*" required onChange={handleChange} />
         <br />
