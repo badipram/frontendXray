@@ -7,7 +7,7 @@ const HeroSection = () => {
                 <a href="#learn-more" className="btn">Unggah Citra Xray</a>
             </div>
             <div className="hero-image">
-                <img src="../public/CT scan-pana.png" alt="ilustration" />
+                <img src="/CT scan-pana.png" alt="ilustration" />
             </div>
         </section>
     )

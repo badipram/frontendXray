@@ -3,7 +3,7 @@ const Navbar = () => {
     <>
     <nav className="navbar">
         <div className="navbar-brand">
-          <img src="../public/logo.png" alt="Logo" className="logo" />
+          <img src="/logo.png" alt="Logo" className="logo" />
           <h1 className="logo-name">RekoMed</h1>
         </div>
         <ul className="navbar-links">
