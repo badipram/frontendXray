@@ -2,7 +2,7 @@ export const predictImage = async (file) => {
   const formData = new FormData();
   formData.append('image', file);
 
-  const response = await fetch('http://127.0.0.1:5050/predict', {
+  const response = await fetch('https://backendxray-production.up.railway.app/predict', {
     method: 'POST',
     body: formData,
   });
